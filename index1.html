@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="button">Submit</button>
+    <div id="box1">Hi</div>
+    <form>
+      <label for="username">Write th eusername</label>
+      <input type="text" id="username" placeholder="write here" />
+      <br />
+      <label for="email">email </label>
+      <input type="email" id="eamil" placeholder="write here" />
+      <br />
+      <label for="password">passowrd</label>
+      <input type="password" id="password" placeholder="write here" /><br />
+      <button>Submit</button><br />
+
+      <input type="radio" name="age" value="0-18" id="option-1" />
+      <label for="option-1">0-18</label>
+      <br />
+      <input type="radio" name="age" value="19-40" id="option=2" />
+      <label for="input-2">19-40</label>
+
+      <br /><br />
+      <label for="qestion">Security qestion:</label>
+      <select name="qestion" id="qestion">
+        <option value="q1">I am interesting for this job</option>
+        <option value="q2">I am not very hard interesting for this job</option>
+        <option value="q3">i am very interesting for this job</option>
+      </select>
+      <br /><br />
+
+      <label for="answer">tip for answer</label>
+      <input type="text" id="answer" name="answer" />
+
+      <br /><br />
+      <label for="bio">write here</label>
+      <textarea
+        name="bio"
+        id="bio"
+        cols="30"
+        rows="10"
+        placeholder="write here"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="submit from this" />
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>
